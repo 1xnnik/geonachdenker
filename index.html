@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontinente und Länder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>Kontinente der Erde</h1>
+      <p>Klicke auf einen Kontinent und wähle ein Land aus.</p>
+    </header>
+
+    <div class="continents" id="continents"></div>
+
+    <h2 class="section-title" id="sectionTitle">
+      Länder
+    </h2>
+
+    <div class="countries" id="countries"></div>
+
+  </div>
+
+  <div class="modal-bg" id="modalBg">
+
+    <div class="modal">
+
+      <button class="close-btn" onclick="closeModal()">
+        ×
+      </button>
+
+      <div class="modal-header">
+
+        <div id="modalFlag"></div>
+
+        <h2 id="modalTitle"></h2>
+
+      </div>
+
+      <p id="modalText"></p>
+
+    </div>
+
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
