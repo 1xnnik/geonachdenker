@@ -1,2 +1,2 @@
-# geo-berleger
+# geonachdenker
 für meta lernen
