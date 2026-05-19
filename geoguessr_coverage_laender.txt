@@ -1,0 +1,95 @@
+GeoGuessr Coverage Länder
+
+Albania
+Andorra
+Argentina
+Australia
+Austria
+Bangladesh
+Belgium
+Bhutan
+Bolivia
+Botswana
+Brazil
+Bulgaria
+Cambodia
+Canada
+Chile
+Colombia
+Croatia
+Czechia
+Denmark
+Dominican Republic
+Ecuador
+Estonia
+Eswatini
+Finland
+France
+Germany
+Ghana
+Greece
+Guatemala
+Hungary
+Iceland
+India
+Indonesia
+Ireland
+Israel
+Italy
+Japan
+Jordan
+Kenya
+Kyrgyzstan
+Latvia
+Lebanon
+Lesotho
+Liechtenstein
+Lithuania
+Luxembourg
+Malaysia
+Mexico
+Mongolia
+Montenegro
+Namibia
+Netherlands
+New Zealand
+Nigeria
+North Macedonia
+Norway
+Oman
+Panama
+Peru
+Philippines
+Poland
+Portugal
+Qatar
+Romania
+Russia
+Rwanda
+San Marino
+Senegal
+Serbia
+Singapore
+Slovakia
+Slovenia
+South Africa
+South Korea
+Spain
+Sri Lanka
+Sweden
+Switzerland
+Taiwan
+Thailand
+Tunisia
+Turkey
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Vietnam
+Guyana
+Paraguay
+Venezuela
+The Gambia
