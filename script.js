@@ -1,6 +1,8 @@
 const continentsEl = document.getElementById("continents");
 const countriesEl = document.getElementById("countries");
 const sectionTitle = document.getElementById("sectionTitle");
+const modalFacts = document.getElementById("modalFacts");
+const modalImages = document.getElementById("modalImages");
 
 function createFlag(country) {
 
@@ -71,8 +73,38 @@ function openModal(country) {
   document.getElementById("modalFlag").innerHTML =
     createFlag(country);
 
-  document.getElementById("modalText").textContent =
-    country.infoText;
+  modalFacts.innerHTML = "";
+  modalImages.innerHTML = "";
+
+  const fakten = country.fakten || [];
+  const bilder = country.bilder || [];
+
+  if (fakten.length === 0) {
+    const item = document.createElement("li");
+    item.textContent = "Noch keine Fakten eingetragen.";
+    modalFacts.appendChild(item);
+  } else {
+    fakten.forEach(fakt => {
+      const item = document.createElement("li");
+      item.textContent = fakt;
+      modalFacts.appendChild(item);
+    });
+  }
+
+  if (bilder.length === 0) {
+    const text = document.createElement("p");
+    text.className = "empty-text";
+    text.textContent = "Noch keine Bilder eingetragen.";
+    modalImages.appendChild(text);
+  } else {
+    bilder.forEach((bildUrl, index) => {
+      const image = document.createElement("img");
+      image.src = bildUrl;
+      image.alt = `${country.name} Bild ${index + 1}`;
+      image.loading = "lazy";
+      modalImages.appendChild(image);
+    });
+  }
 
   document.getElementById("modalBg").style.display =
     "flex";
