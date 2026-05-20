@@ -82,28 +82,29 @@ const data = {
 "china schrift":[
     { name: "Japan", code: "jp", fakten: ["linksverkehr", "low cam", "NEVER outside yellow lines"], bilder: ["https://de.plonkit.net/images/resize/450/80/japan/2.png", "https://de.plonkit.net/images/resize/450/80/japan/9.png", "https://de.plonkit.net/images/resize/450/80/japan/13.png", "https://de.plonkit.net/images/resize/600/80/japan/jp_areacodes_darkmode.png", "https://de.plonkit.net/images/resize/600/80/japan/37.png"] },
     { name: "China", code: "cn", fakten: ["tripod coverage", "motion blur"], bilder: ["https://de.plonkit.net/images/resize/450/80/china/cn_licenceplate.png", "https://de.plonkit.net/images/resize/600/80/china/cn_coverage.png"] },
-    { name: "Taiwan", code: "tw", fakten: ["japan aber rechtsverkehr"], bilder: ["https://de.plonkit.net/images/resize/450/80/taiwan/ui_remover.png"] },
-    { name: "South Korea", code: "kr", fakten: ["Informationen über South Korea."], bilder: [] },
+    { name: "Taiwan", code: "tw", fakten: ["japan aber rechtsverkehr", "rechtsverkehr"], bilder: ["https://de.plonkit.net/images/resize/600/80/taiwan/a-more-detailed-taiwan-area-code-map.webp", "https://de.plonkit.net/images/resize/450/80/taiwan/ui_remover.png", "https://de.plonkit.net/images/resize/600/80/taiwan/ui_remover__281_29.png", "https://de.plonkit.net/images/resize/600/80/taiwan/Traditional_Chinese.png"] },
+    { name: "South Korea", code: "kr", fakten: ["autumn and winter", "right driving"], bilder: ["https://de.plonkit.net/images/resize/600/80/south-korea/licen_plae.png", "https://de.plonkit.net/images/resize/600/80/south-korea/kr_script.png", "https://de.plonkit.net/images/resize/600/80/south-korea/kr_pole_marking.png"] },
 ],
 
 "India type beat":[
-    { name: "India", code: "in", fakten: ["Informationen über India."], bilder: [] },
-    { name: "Bangladesh", code: "bd", fakten: ["Informationen über Bangladesh."], bilder: [] },
-    { name: "Bhutan", code: "bt", fakten: ["Informationen über Bhutan."], bilder: [] },
-    { name: "Sri Lanka", code: "lk", fakten: ["Informationen über Sri Lanka."], bilder: [] },
+    { name: "India", code: "in", fakten: ["left driving"], bilder: ["in_scripts.png", "in_language.png"] },
+    { name: "Bangladesh", code: "bd", fakten: ["türkis plate nur bangla"], bilder: ["https://de.plonkit.net/images/resize/450/80/bangladesh/Bangladesh_License_Plate.png", "https://de.plonkit.net/images/resize/450/80/bangladesh/bd_language.png", "https://de.plonkit.net/images/resize/450/80/bangladesh/bollard.png"] },
+    { name: "Bhutan", code: "bt", fakten: ["Prayer flags", "thin metal poles"], bilder: ["https://de.plonkit.net/images/resize/450/80/bhutan/Bhutan_License_Plate.png", "https://de.plonkit.net/images/resize/450/80/bhutan/Dzongkha.png", "https://de.plonkit.net/images/resize/450/80/bhutan/stonebarriers.png"] },
+    { name: "Sri Lanka", code: "lk", fakten: ["low-cam", "large see-through holes in the LOWER half of the pole"], bilder: ["https://de.plonkit.net/images/resize/450/80/sri-lanka/Sri_Lanka_License_Plate.png","https://de.plonkit.net/images/resize/450/80/sri-lanka/Gen_3_car2.png","https://de.plonkit.net/images/resize/450/80/sri-lanka/Sri_Lanka_scripts.png"] },
+
 ],
  
 "thai":[
-    { name: "Thailand", code: "th", fakten: ["Informationen über Thailand."], bilder: [] },
-    { name: "Vietnam", code: "vn", fakten: ["Informationen über Vietnam."], bilder: [] },
-    { name: "Cambodia", code: "kh", fakten: ["Informationen über Cambodia."], bilder: [] },
-    { name: "Singapore", code: "sg", fakten: ["Informationen über Singapore."], bilder: [] },
+    { name: "Thailand", code: "th", fakten: ["left drive", "yellow middle line", "royal flag = yellow", "phone codes nur haustelefone"], bilder: ["https://de.plonkit.net/images/resize/450/80/thailand/Thailand_License_Plate.png", "https://de.plonkit.net/images/resize/450/80/thailand/th_language.png", "https://de.plonkit.net/images/resize/450/80/thailand/Screenshot%20(638).png", "https://de.plonkit.net/images/resize/450/80/thailand/Indicatifs_Thailande.png"] },
+    { name: "Vietnam", code: "vn", fakten: ["right drive", "unique: Road signs have a yellow-orange background"], bilder: ["https://de.plonkit.net/images/resize/450/80/vietnam/vietnam_plate2.png", "https://de.plonkit.net/images/resize/450/80/vietnam/vn_language.png", "https://de.plonkit.net/images/resize/450/80/vietnam/vn_bollard.png", "https://de.plonkit.net/images/resize/450/80/vietnam/vn_directionalsign.png"] },
+    { name: "Cambodia", code: "kh", fakten: ["right drive"], bilder: ["https://de.plonkit.net/images/resize/450/80/cambodia/Cambodia_License_Plate.png", "https://de.plonkit.net/images/resize/450/80/cambodia/Khmer.png", "https://de.plonkit.net/images/resize/450/80/cambodia/Cambodia_poles.png", "https://de.plonkit.net/images/resize/450/80/cambodia/House_colours.png"] },
+    { name: "Singapore", code: "sg", fakten: ["cleanliness and orderliness", "straßennamen 3 letter codes"], bilder: ["https://de.plonkit.net/images/resize/450/80/singapore/streetsign.png", "https://de.plonkit.net/images/resize/450/80/singapore/Singapore_License_Plate.png", "https://de.plonkit.net/images/resize/450/80/singapore/directionalsign.png", "https://de.plonkit.net/images/resize/450/80/singapore/Untitled_design__2845_29.png"] },
 ],
 
 "asien insel": [
-    { name: "Indonesia", code: "id", fakten: ["Informationen über Indonesia."], bilder: [] },
-    { name: "Malaysia", code: "my", fakten: ["Informationen über Malaysia."], bilder: [] },
-    { name: "Philippines", code: "ph", fakten: ["Informationen über Philippines."], bilder: [] },
+    { name: "Indonesia", code: "id", fakten: ["3 white sections on plate", "left drive", "outer lines always white", "money is Rupiah (Rp)"], bilder: ["https://de.plonkit.net/images/resize/450/80/indonesia/Indonesia_License_Plate.png", "https://de.plonkit.net/images/resize/450/80/indonesia/Indonesian_language.png", "https://de.plonkit.net/images/resize/450/80/indonesia/Front_License_Plate_on_Motorcycle.png", "https://de.plonkit.net/images/resize/600/80/indonesia/If_you_are_reading_this_have_a_nice_day.png"] },
+    { name: "Malaysia", code: "my", fakten: ["2 white sections on plate", "unique: double white center lines", "= indo skript"], bilder: ["https://de.plonkit.net/images/resize/450/80/malaysia/Malaysia_License_Plate.png", "https://de.plonkit.net/images/resize/450/80/malaysia/Untitled_design__2824_29.png", "https://de.plonkit.net/images/resize/450/80/malaysia/Untitled_design__2823_29.png", "https://de.plonkit.net/images/resize/450/80/malaysia/directionalsign.png"] },
+    { name: "Philippines", code: "ph", fakten: ["landlines start with 0 followed by area code", "mobile phone numbers start with 09", "rechts drive", "Concrete roads oft", "Octagonal metal poles"], bilder: ["https://de.plonkit.net/images/resize/450/80/philippines/2_areacodes.png", "https://de.plonkit.net/images/resize/450/80/philippines/1_octopole.png", "https://de.plonkit.net/images/resize/450/80/philippines/1_poleinsulator.png", "https://de.plonkit.net/images/resize/450/80/philippines/1_roadline.png"] },
 ],
 
 "south":[
