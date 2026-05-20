@@ -66,23 +66,23 @@ const data = {
 
 
 "arab":[
-    { name: "Oman", code: "om", fakten: ["Informationen über Oman."], bilder: [] },
-    { name: "United Arab Emirates", code: "ae", fakten: ["Informationen über United Arab Emirates."], bilder: [] },
-    { name: "Qatar", code: "qa", fakten: ["Informationen über Qatar."], bilder: [] },
-    { name: "Jordan", code: "jo", fakten: ["Informationen über Jordan."], bilder: [] },
-	{ name: "Israel", code: "il", fakten: ["Informationen über Israel."], bilder: [] },
-    { name: "Lebanon", code: "lb", fakten: ["Informationen über Lebanon."], bilder: [] },
+    { name: "Oman", code: "om", fakten: ["white truck", "desert auch ohne straße", "Black-and-yellow curbs"], bilder: ["https://de.plonkit.net/images/resize/450/80/oman/13.png", "https://de.plonkit.net/images/resize/450/80/oman/3.png", "https://de.plonkit.net/images/resize/450/80/oman/10.png"] },
+    { name: "United Arab Emirates", code: "ae", fakten: ["unique: white car with visible black roof racks in gen 3", "Reddish stones on sidewalk", "Divided roads and roundabouts "], bilder: ["https://de.plonkit.net/images/resize/450/80/united-arab-emirates/ae_roadlines.png"] },
+    { name: "Qatar", code: "qa", fakten: ["white on red and white on blue chevrons"], bilder: ["https://de.plonkit.net/images/resize/450/80/qatar/Qatar_License_Plate.png", "https://de.plonkit.net/images/resize/450/80/qatar/Qatarpoles.png", "https://de.plonkit.net/images/resize/450/80/qatar/Crossing_Sign.png"] },
+    { name: "Jordan", code: "jo", fakten: ["no english writing", "chevrons are white with red arrows"], bilder: ["https://de.plonkit.net/images/resize/450/80/jordan/Jordan_License_Plate.png", "https://de.plonkit.net/images/resize/600/80/jordan/jo_coverage.png", "https://de.plonkit.net/images/resize/450/80/jordan/Jordan_road.png", "https://de.plonkit.net/images/resize/450/80/jordan/jo_architecture.png"] },
+	{ name: "Israel", code: "il", fakten: ["Chevrons are white on black"], bilder: ["https://de.plonkit.net/images/resize/450/80/israel-west-bank/il_Licence_Plate.png", "https://de.plonkit.net/images/resize/450/80/israel-west-bank/il_language.png", "https://de.plonkit.net/images/resize/450/80/israel-west-bank/il_stopsign.png", "https://de.plonkit.net/images/resize/450/80/israel-west-bank/IL_Stripy_Pole.png"] },
+    { name: "Lebanon", code: "lb", fakten: ["arabisch + english oder french", "unique shitcam in middle east"], bilder: ["https://de.plonkit.net/images/resize/450/80/lebanon/lb_licenceplates.png", "https://de.plonkit.net/images/resize/450/80/lebanon/Lebanon_Poles.png", "https://de.plonkit.net/images/resize/450/80/lebanon/Lebanon_Coverage_Map.png"] },
 ],
 
 "asien russland":[
-    { name: "Mongolia", code: "mn", fakten: ["Informationen über Mongolia."], bilder: [] },
-    { name: "Kyrgyzstan", code: "kg", fakten: ["Informationen über Kyrgyzstan."], bilder: [] },
+    { name: "Mongolia", code: "mn", fakten: ["ЗОГС stop sign.", "unique: Ɵ Ү", "double vowels aa ƟƟ ЭЭ are common", "truck mit tent"], bilder: ["https://de.plonkit.net/images/resize/450/80/mongolia/1._licenceplate.jpeg", "https://de.plonkit.net/images/resize/450/80/mongolia/1._bollard.png"] },
+    { name: "Kyrgyzstan", code: "kg", fakten: ["watch car and driving richtung"], bilder: ["https://de.plonkit.net/images/resize/450/80/kyrgyzstan/Please_dont_guess_Guatemala.png", "https://de.plonkit.net/images/resize/600/80/kyrgyzstan/Kyrgyzstan_Driving_Directions_V2.png", "https://de.plonkit.net/images/resize/450/80/kyrgyzstan/Kyrgyzstan_License_Plate.png"] },
 ],
 
 "china schrift":[
-    { name: "Japan", code: "jp", fakten: ["Informationen über Japan."], bilder: [] },
-    { name: "China", code: "cn", fakten: ["Informationen über China."], bilder: [] },
-    { name: "Taiwan", code: "tw", fakten: ["Informationen über Taiwan."], bilder: [] },
+    { name: "Japan", code: "jp", fakten: ["linksverkehr", "low cam", "NEVER outside yellow lines"], bilder: ["https://de.plonkit.net/images/resize/450/80/japan/2.png", "https://de.plonkit.net/images/resize/450/80/japan/9.png", "https://de.plonkit.net/images/resize/450/80/japan/13.png", "https://de.plonkit.net/images/resize/600/80/japan/jp_areacodes_darkmode.png", "https://de.plonkit.net/images/resize/600/80/japan/37.png"] },
+    { name: "China", code: "cn", fakten: ["tripod coverage", "motion blur"], bilder: ["https://de.plonkit.net/images/resize/450/80/china/cn_licenceplate.png", "https://de.plonkit.net/images/resize/600/80/china/cn_coverage.png"] },
+    { name: "Taiwan", code: "tw", fakten: ["japan aber rechtsverkehr"], bilder: ["https://de.plonkit.net/images/resize/450/80/taiwan/ui_remover.png"] },
     { name: "South Korea", code: "kr", fakten: ["Informationen über South Korea."], bilder: [] },
 ],
 
