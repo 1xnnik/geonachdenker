@@ -2,7 +2,7 @@ const continentsEl = document.getElementById("continents");
 const countriesEl = document.getElementById("countries");
 const sectionTitle = document.getElementById("sectionTitle");
 
-const MAX_GROUP_SIZE = 4;
+const MAX_GROUP_SIZE = 6;
 
 function createFlag(country) {
   return `
@@ -25,20 +25,7 @@ function splitIntoGroups(countries, groupSize = MAX_GROUP_SIZE) {
   return groups;
 }
 
-function renderContinents() {
-  Object.keys(data).forEach(continent => {
-    const button = document.createElement("button");
 
-    button.className = "continent-btn";
-    button.textContent = continent;
-
-    button.onclick = () => {
-      showCountryGroups(continent, button);
-    };
-
-    continentsEl.appendChild(button);
-  });
-}
 
 function showCountryGroups(continent, activeButton) {
   document
@@ -59,7 +46,6 @@ function showCountryGroups(continent, activeButton) {
     groupCard.className = "country-group";
 
     groupCard.innerHTML = `
-      <h3>Gruppe ${groupIndex + 1}</h3>
       <div class="country-grid-2x2">
         ${group.map(country => renderCountryInfo(country)).join("")}
       </div>
@@ -123,4 +109,83 @@ function renderImages(country, bilder) {
   `;
 }
 
+function renderContinents() {
+
+  const superGroups = {
+    "EU WEST": [
+      "dach raum",
+      "flach region",
+      "urlaub region",
+      "norden",
+      "cup of tea",
+      "kleine länder"
+    ],
+	
+	"EU OST": [
+	  "törken",
+      "s-osten",
+      "osten",
+      "krieg",
+      "baltic"
+	],
+
+    "ASIA": [
+      "arab",
+      "asien russland",
+      "china schrift",
+      "India type beat",
+      "thai",
+      "asien insel"
+    ],
+
+    "AFRICA": [
+      "south",
+      "ostafrika",
+      "westafrica"
+    ],
+
+    "AMERICA": [
+      "nord amerika",
+      "mitte amerika",
+      "south amerika oben",
+      "south amerika unten"
+    ],
+
+    "OCEANIA": [
+      "oceania"
+    ]
+  };
+
+  Object.entries(superGroups).forEach(([groupName, regions]) => {
+
+    const wrapper = document.createElement("div");
+    wrapper.className = "super-group";
+
+    const title = document.createElement("h2");
+    title.className = "super-group-title";
+    title.textContent = groupName;
+
+    const grid = document.createElement("div");
+    grid.className = "super-group-grid";
+
+    regions.forEach(continent => {
+
+      const button = document.createElement("button");
+
+      button.className = "continent-btn";
+      button.textContent = continent;
+
+      button.onclick = () => {
+        showCountryGroups(continent, button);
+      };
+
+      grid.appendChild(button);
+    });
+
+    wrapper.appendChild(title);
+    wrapper.appendChild(grid);
+
+    continentsEl.appendChild(wrapper);
+  });
+}
 renderContinents();
