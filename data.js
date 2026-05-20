@@ -108,18 +108,18 @@ const data = {
 ],
 
 "south":[
-    { name: "South Africa", code: "za", fakten: ["Informationen über South Africa."], bilder: [] },
-    { name: "Botswana", code: "bw", fakten: ["Informationen über Botswana."], bilder: [] },
-    { name: "Eswatini", code: "sz", fakten: ["Informationen über Eswatini."], bilder: [] },
-    { name: "Lesotho", code: "ls", fakten: ["Informationen über Lesotho."], bilder: [] },
-    { name: "Namibia", code: "na", fakten: ["Informationen über Namibia."], bilder: [] },
+    { name: "South Africa", code: "za", fakten: ["left drive", "yellow outer lines = not AU", "viel gen2 -> halo-like colour distortion in the sky", "bird poles", "high walls, fences, and gates", "r roads map"], bilder: ["https://de.plonkit.net/images/resize/450/80/south-africa/Bird_poles.png","https://de.plonkit.net/images/resize/450/80/south-africa/Untitled_design21.png", "https://de.plonkit.net/images/resize/600/80/south-africa/ZA-map24.png"] },
+    { name: "Botswana", code: "bw", fakten: ["UK-style plates"], bilder: ["https://de.plonkit.net/images/resize/1200/80/botswana/Botswana_Region_Map.png", "https://de.plonkit.net/images/resize/450/80/botswana/Botswana_License_Plate.png", "https://de.plonkit.net/images/resize/450/80/botswana/Botswana_stripeys.png", "https://de.plonkit.net/images/resize/450/80/botswana/Direction_Signs.png"] },
+    { name: "Eswatini", code: "sz", fakten: ["green, wooded hills tall golden grass"], bilder: ["https://de.plonkit.net/images/resize/450/80/eswatini/MRroad.png", "https://de.plonkit.net/images/resize/450/80/eswatini/Eswatini_License_Plate.png", "https://de.plonkit.net/images/resize/450/80/eswatini/busshelter.png"] },
+    { name: "Lesotho", code: "ls", fakten: ["left drive", "runde buschhütte", "Basotho woollen blanket -> wie so ein mantel"], bilder: ["https://de.plonkit.net/images/resize/450/80/lesotho/Lesotho_License_Plate.png", "https://de.plonkit.net/images/resize/600/80/lesotho/ls_coverage.png"] },
+    { name: "Namibia", code: "na", fakten: ["all white truck -> antenna lean slightly to the left", "left drive"], bilder: ["https://de.plonkit.net/images/resize/450/80/namibia/0.png", "https://de.plonkit.net/images/resize/600/80/namibia/10.png", "https://de.plonkit.net/images/resize/600/80/namibia/12.png"] },
 ],
 
 "ostafrika":[
-    { name: "Kenya", code: "ke", fakten: ["Informationen über Kenya."], bilder: [] },
-    { name: "Rwanda", code: "rw", fakten: ["Informationen über Rwanda."], bilder: [] },
-    { name: "Uganda", code: "ug", fakten: ["Informationen über Uganda."], bilder: [] },
-    { name: "Tunisia", code: "tn", fakten: ["Informationen über Tunisia."], bilder: [] },
+    { name: "Kenya", code: "ke", fakten: ["grey Toyota SUV following the Street View car", "unique: grüner shop Safaricom", "immer solid white outer - yellow inner solid/dashed"], bilder: ["https://de.plonkit.net/images/resize/450/80/kenya/Kenya_License_Plate.png", "https://de.plonkit.net/images/resize/450/80/kenya/Kenya_Road_Signs.png", "https://de.plonkit.net/images/resize/450/80/kenya/Kenya_Coverage_Map.png", "https://de.plonkit.net/images/resize/450/80/kenya/Safaricom.png"] },
+    { name: "Rwanda", code: "rw", fakten: ["camera mount visible", "right drive"], bilder: ["https://de.plonkit.net/images/resize/450/80/rwanda/Rwanda_License_Plate.png", "https://de.plonkit.net/images/resize/450/80/rwanda/RwandanTrio.png", "https://de.plonkit.net/images/resize/600/80/rwanda/Rwanda_Coverge_map.jpg"] },
+    { name: "Uganda", code: "ug", fakten: ["left drive", "nur major city coverage -> Kampala"], bilder: ["https://de.plonkit.net/images/resize/450/80/uganda/Uganda_License_Plate.png", "https://de.plonkit.net/images/resize/600/80/uganda/Kampala_Car_3.png"] },
+    { name: "Tunisia", code: "tn", fakten: ["follow car", "French and Arabic language"], bilder: ["https://de.plonkit.net/images/resize/450/80/tunisia/tn_coverage.png", "https://de.plonkit.net/images/resize/450/80/tunisia/followcars.png", "https://de.plonkit.net/images/resize/450/80/tunisia/directionalsigns.png", "https://de.plonkit.net/images/resize/450/80/tunisia/round.jpg", "https://de.plonkit.net/images/resize/450/80/tunisia/Tunisia_stop_sign.png", "https://de.plonkit.net/images/resize/450/80/tunisia/Tunisia_License_Plate.png"] },
 ],
 
 "westafrica": [
