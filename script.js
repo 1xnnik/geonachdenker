@@ -103,6 +103,7 @@ function renderImages(country, bilder) {
           src="${bildUrl}"
           alt="${country.name} Bild ${index + 1}"
           loading="lazy"
+          onclick="openImageModal('${bildUrl}')"
         >
       `).join("")}
     </div>
@@ -189,3 +190,29 @@ function renderContinents() {
   });
 }
 renderContinents();
+function openImageModal(imageUrl) {
+
+  const modal = document.createElement("div");
+  modal.className = "image-modal";
+
+  modal.innerHTML = `
+    <div class="image-modal-content">
+      <button class="image-modal-close">×</button>
+      <img src="${imageUrl}" alt="">
+    </div>
+  `;
+
+  modal.onclick = () => {
+    modal.remove();
+  };
+
+  modal.querySelector(".image-modal-content").onclick = (e) => {
+    e.stopPropagation();
+  };
+
+  modal.querySelector(".image-modal-close").onclick = () => {
+    modal.remove();
+  };
+
+  document.body.appendChild(modal);
+}
