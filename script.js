@@ -66,11 +66,32 @@ function renderCountryInfo(country) {
         <h4>${country.name}</h4>
       </div>
 
-      <div class="country-info-section">
-        <h5>Quick facts</h5>
-        ${renderFacts(fakten)}
-      </div>
+<div class="country-info-section">
 
+  <div class="quick-facts-header">
+    <h5>Quick facts</h5>
+
+    ${
+      country.drive
+        ? `
+          <img
+            class="drive-icon"
+            src="${country.drive === "l"
+              ? "left_drive.png"
+              : "right_drive.png"}"
+            alt="${country.drive === "l"
+              ? "Left Drive"
+              : "Right Drive"}"
+          >
+        `
+        : ""
+    }
+
+  </div>
+
+  ${renderFacts(fakten)}
+
+</div>
       <div class="country-info-section">
         <h5>Bilder</h5>
         ${renderImages(country, bilder)}
